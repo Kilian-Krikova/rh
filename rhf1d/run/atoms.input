@@ -1,0 +1,17 @@
+# Nmetal
+   10
+
+# Metals
+#  model file              ACTIVE/PASSIVE  INITIAL_SOLUTION   population file
+
+
+  ../../Atoms/H_epsilon/H_9_EB_merged_OMEGA.atom  ACTIVE   ZERO_RADIATION   pops.H.out 
+  ../../Atoms/Mg.atom	      PASSIVE     ZERO_RADIATION    
+  ../../Atoms/CaII_PRD.atom     ACTIVE   ZERO_RADIATION   pops.CA.out
+  ../../Atoms/H_epsilon/Si.atom     PASSIVE   LTE_POPULATIONS   
+  ../../Atoms/H_epsilon/Al.atom     PASSIVE   LTE_POPULATIONS   
+  ../../Atoms/H_epsilon/Fe.atom     PASSIVE   LTE_POPULATIONS   
+  ../../Atoms/H_epsilon/He.atom     PASSIVE   LTE_POPULATIONS   
+  ../../Atoms/H_epsilon/N.atom     PASSIVE   LTE_POPULATIONS   
+  ../../Atoms/H_epsilon/Na.atom     PASSIVE   LTE_POPULATIONS  
+  ../../Atoms/H_epsilon/S.atom     PASSIVE   LTE_POPULATIONS   
